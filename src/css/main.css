@@ -1,0 +1,187 @@
+@import url(/src/css/global.css);
+@import url(/src/css/variables.css);
+@import url(/src/css/media.css);
+
+/* header */
+
+.hero-header {
+  width: var(--width);
+}
+
+.hero-header .hero-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  min-height: var(--min-heigh);
+}
+
+.hero-header .hero-nav .img {
+  cursor: pointer;
+}
+
+.hero-header .hero-nav .img path:hover {
+  stroke: var(--hover-nav);
+}
+
+.hero-header .hero-nav ul {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: var(--flex-gap-lg);
+
+  padding-right: 200px;
+}
+
+.hero-header .hero-nav ul li a,
+.hero-header .hero-nav .search-form span {
+  font-size: var(--font-size-sm);
+  color: var(--text-primary);
+  font-weight: 500;
+
+  transition: color 1s ease;
+}
+
+.hero-header .hero-nav ul li a:hover {
+  color: var(--hover-nav);
+
+  transition-duration: 0.7s;
+}
+
+.hero-header .hero-nav .search-form span {
+  color: var(--hover-nav);
+}
+
+.hero-header .hero-nav .search-form span:hover {
+  color: var(--text-primary);
+}
+
+main {
+  width: 100%;
+  position: relative;
+}
+
+main .home img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  top: -130px;
+  right: 70px;
+  z-index: -1;
+}
+
+main .home .home-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 40px;
+}
+
+main .home .home-text h1 {
+  color: var(--text-primary);
+  font-size: var(--font-size-xl);
+
+  margin-top: 50px;
+  line-height: var(--spacing-xl);
+
+  margin-bottom: 9px;
+}
+
+main .home .home-text h1 span {
+  background-image: linear-gradient(to right, #00ff60, #00cc99, #9dff00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+main .home .home-text p {
+  max-width: 500px;
+  color: #c5c5c5;
+
+  font-size: var(--font-size-base);
+  font-weight: 400;
+
+  margin-bottom: 30px;
+}
+
+main .home .home-text .button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+main .home .home-text .button {
+  background: none repeat scroll 0 0 transparent;
+  border: none;
+  border-spacing: 0;
+  list-style: none outside none;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+
+  color: var(--descri-muted);
+
+  transition-duration: 1s;
+
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin-bottom: 90px;
+}
+
+main .home .home-text .button.button1 {
+  background-color: var(--button-primary);
+
+  padding: 16px 50px;
+
+  border-radius: 50px 50px 50px 8px;
+}
+
+main .home .home-text .button.button2 {
+  background-color: var(--button-secondary);
+
+  padding: 16px 35px;
+
+  border-radius: 50px 50px 8px 50px;
+}
+
+main .home .home-text .button.button1:hover {
+  background-color: var(--button-hover-primary);
+}
+
+main .home .home-text .button.button2:hover {
+  background-color: var(--button-hover-secondary);
+}
+
+main .home .home-container .conect h3 {
+  color: var(--text-primary);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+main .home .home-container .conect .conect-conquis {
+  display: flex;
+  gap: var(--flex-gap);
+}
+
+main .home .home-container .conect p {
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+main .home .next {
+  position: absolute;
+  top: 360px;
+  right: 73px;
+  z-index: 9999;
+
+  cursor: pointer;
+}
