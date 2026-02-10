@@ -4,7 +4,7 @@ Plataforma moderna de cursos online voltada para o desenvolvimento de **habilida
 O objetivo é oferecer uma experiência simples, acessível e eficiente para quem deseja aprender e evoluir.
 
 - [x] Desktop
-- [] Mobile
+- [x] Mobile
 
 ---
 
