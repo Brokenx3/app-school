@@ -31,23 +31,31 @@
 
   /* ✍️ Tipografia */
   --font-family-base: "Inter", Arial, sans-serif;
-  --font-size-sm: 1.4rem;
+  --font-size-sm07: 0.7rem;
+  --font-size-sm10: 1rem;
+  --font-size-sm: 1.2rem;
+  --font-size-st: 1.4rem;
   --font-size-base: 1.6rem;
-  --font-size-lg: 4rem;
+  --font-size-18: 1.8rem;
+  --font-size: 2rem;
+  --font-size3: 3rem;
+  --font-size4: 4rem;
+  --font-size-lg: 5rem;
   --font-size-xl: 6.2rem;
   --line-height: 1.5;
 
   /* 📏 Espaçamento / padding */
   --spacing-xs: 0.25rem;
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 2rem;
+  --spacing-sm: 2.7rem;
+  --spacing-md: 3.7rem;
+  --spacing-lg: 4.7rem;
   --spacing-xl: 6rem;
 
   --padding-right: 7rem;
 
   /* 🖼️ Layout */
   --container-width: 1150px;
+  --flex-gap06: 0.6rem;;
   --flex-gap: 1.6rem;
   --flex-gap-lg: 2rem;
   --flex-gap-nav: 0.7rem;
